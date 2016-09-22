@@ -1,0 +1,74 @@
+Enter file contents here/*----------NAV----------*/
+/* Remove the dotted outline in IE*/
+a:focus{
+    outline:0;
+}
+
+/*----------BODY----------*/
+
+body {
+    padding-top: 70px;
+}
+
+/*EDIT AREA*/
+#editMDTextArea{
+    width:85%;
+    height: 680px;
+    border: none;
+    margin-left: 10%;
+    /*box-shadow: 1px 1px 5px #888888;*/
+}
+
+/*MAIN CONTENT*/
+#mainContent{
+    width:83%;
+    margin:auto;
+}
+
+/*----------BUTTONS----------*/
+.btn:focus{
+    outline:0;
+}
+
+#editBtnGroup, #saveButton, #cancelButton, #editMDTextArea{
+    display:none;
+}
+
+#editBtnGroup{
+    position:fixed;
+    margin-left: 1%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+#editBtnGroup:hover{
+    opacity: 1.0;
+}
+
+#saveButton{
+    position: relative;
+    margin: auto;
+    transition: 0.5s;
+    margin: 10px;
+    width: 20%;
+    right: 0;
+    position:float;
+}
+
+#cancelButton{
+    background-color:#800000;
+    border: none;
+}
+
+.saveCancelContainer{
+    /*background-color:skyblue;*/
+}
+
+/*----------FOOTER----------*/
+
+footer{
+    margin-top: 20px;
+    border-top: 1px #e7e7e7 solid;
+    color: #e7e7e7;
+    text-align:right;
+}
